@@ -19,7 +19,7 @@ My Ph.D. research was carried out in the [Condensed Matter Theory group](https:/
 
 Before settling in Grenoble, I completed an Erasmus Mundus joint master's degree in physics that was hosted jointly by the [École Normale Supérieure de Lyon](http://www.ens-lyon.fr/), [Universiteit van Amsterdam](https://www.uva.nl/), [Vrije Universiteit Amsterdam](https://vu.nl/en), and [La Sapienza Università di Roma](https://www.uniroma1.it/it/pagina-strutturale/home). 
 
-In my free time, I enjoy trying out new vegetarian recipes and hiking, climbing, or skiing in the mountains surrounding Grenoble (see below). 
+In my free time, I enjoy trying out new vegetarian recipes and hiking, climbing, or skiing in the mountains surrounding Grenoble. bla bla bla 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
