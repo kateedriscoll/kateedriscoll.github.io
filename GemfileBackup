@@ -1,10 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
-#gem 'github-pages', '>=104' 
-
-group :jekyll_plugins do
-  gem 'jekyll', '3.9.0'
-    gem 'jekyll-include-cache'
+gem 'github-pages', '>=104', group: :jekyll_plugins do
+    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
@@ -21,5 +17,6 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    gem 'kramdown-parser-gfm'
 end
+
+gem "jekyll", "~> 3.9"
