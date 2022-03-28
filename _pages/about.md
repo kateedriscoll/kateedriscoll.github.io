@@ -7,10 +7,6 @@ subtitle: <a href='#'>Affiliations</a>. Grenoble, France. Feel free to connect w
 profile:
   align: right
   image: prof_pic.jpg
-  [comment]: <> (address: > )
-    [comment]: <> (<p>555 your office number</p> )
-    [comment]: <> (<p>123 your address street</p> )
-    [comment]: <> (<p>Your City, State 12345</p> )
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
