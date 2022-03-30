@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-03-30 11:02:00+0200
 inline: true
 ---
+[//]: # (year-month-date hour-minutes-second time zone indicator (Paris is GMT+2))
 
-A simple inline announcement.
+Looking for jobs
