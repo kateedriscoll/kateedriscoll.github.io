@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Anomalous transport 
-description: Monte Carlo and exact diagonalization study of long-range interactions as a mechanism for anomalous electron transport in strongly correlated systems. 
-img: assets/img/anomalous-transport.jpg
-importance: 2
-category: thesis 
+title: project 3
+description: a project that redirects to another website
+img: assets/img/7.jpg
+redirect: https://unsplash.com
+importance: 3
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
