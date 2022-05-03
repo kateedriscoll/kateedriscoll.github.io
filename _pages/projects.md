@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Explanations of past and present projects.
+description: Explanations of past and present projects. Starting with thesis, will slowly add others. 
 nav: true
 display_categories: [thesis, fun]
 horizontal: false
