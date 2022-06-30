@@ -11,7 +11,7 @@ In late 2018, I started my Ph.D. investigating the fundamental question of how l
 As with any complicated project, my advisors and I needed a (relatively) controlled starting point into order to begin answering the smaller, more concrete questions contained within the framework of our work.
 This entailed fixing the dimensionality and lattice geometry that we wanted to investigate, as well as simplifying other degrees of freedom.
 
-With the quarter-filled organic salt family, $$\theta$$-ET$$\_{2}$$X as our inspiration, we decided to study a triangular lattice system with only charge degrees of freedom.
+With the quarter-filled organic salt family, $$\theta$$-ET$$_{2}$$X as our inspiration, we decided to study a triangular lattice system with only charge degrees of freedom.
 The quarter-filling and the prohibitive cost for any two particles to share a site justified our deliberate choice to neglect the spin degrees of freedom. 
 
 These choices enabled us to write down the following Hamiltonian in second quantization to describe the energetic processes underlying our system:
@@ -61,7 +61,7 @@ The right panel of the figure above shows not only the decrease of the Drude wei
 Both quantities, although computed in different ways from the diagonalization, agree well and signal that the electronic correlation is building up with the increase in interaction strength, $$V/t$$.
 
 Another quantity that provides us with a measure of electron correlation is the single-particle spectral function, $$A(\omega)$$. 
-This quantity is shown in the figure below and we clearly observe the development of a pseudogap as the interaction strength $$V/t$$ increases to its value at the metal-insulator transition, $$(V/t)\_{c} \approx 30$$.
+This quantity is shown in the figure below and we clearly observe the development of a pseudogap as the interaction strength $$V/t$$ increases to its value at the metal-insulator transition, $$(V/t)_{c} \approx 30$$.
 
 At this point, it is worth pointing out that our discovery of a correlated metallic phase also holds on lattices that are not geometrically frustated. 
 This can be seen in the phase diagram of our model computed on the square lattice, shown below in the right panel.
@@ -82,6 +82,32 @@ In the [original 1975 paper](https://iopscience.iop.org/article/10.1088/0022-371
 Almost two decades later, however, [Efros put forth](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.68.2208) that the presence of disorder is not necessary to observe this pseudogap phenomenon and that the presence of long-range interactions is sufficient.
 
 To determine if a similar mechanism could explain the presence of the pseudogap observed in our data, we constructed a quantum analogue of the distribution of electrostatic on-site potentials.
+We defined this quantity as 
+
+\begin{equation}
+P( \phi\_{i} ) = \Bigg\langle \psi\_{0} \Bigg\vert \delta\Bigg( \phi\_{i} - \sum\_{j \neq i} V( R\_{ij} )( \hat{n}\_{j} - \bar{n} ) \Bigg) \Bigg\vert \psi\_{0} \Bigg\rangle.
+\end{equation}
+
+In other words, $$\phi_{i}$$ represents the electrostatic potential felt by an electron at site $$i$$ from all of the other electrons in the system. 
+When we studied this distribution as a function of the interaction strength leading up to the metal-insulator transition, we discovered a similar suppression of energy levels at the approach of the transition.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pofphi-quantum.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Distribution of on-site electrostatic potentials in the quantum ground state wave function as a function of increasing interaction strength (green to blue gradient).
+</div>
+
+For the first time, we were able to demonstrate that long-range interactions act as a source of self-generated disorder in quantum systems, giving rise to novel correlated behavior. 
+Additionally, we examined the spectrum of collective charge fluctuations, $$D( \omega )$$.
+This quantity provides us with an understanding of the time required for a global rearrangement of the charges to occur. 
+We learned that the long-range interactions and the disordered electrostatic landscapes that they create lead to slow collective charge fluctuations, or rearrangements. 
+
+We further hypothesized that the slow nature of these charge fluctuations could lead to the observation of anomalous transport at finite temperatures.
+Indeed, this became the focus of the second project of my Ph.D. and is discussed in the "Anomalous transport" section of the Projects page.
+
 
 {% comment %}
 Every project has a beautiful feature showcase page.

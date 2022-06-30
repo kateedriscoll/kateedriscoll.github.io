@@ -1,24 +1,53 @@
 ---
 layout: page
 title: Anomalous transport 
-description: Monte Carlo and exact diagonalization study of long-range interactions as a mechanism for anomalous electron transport in strongly correlated systems. 
+description: Monte Carlo study of long-range interactions as a mechanism for anomalous electron transport in strongly correlated systems. 
 img: assets/img/anomalous-transport.jpg
 importance: 2
 category: thesis 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Uncovering the mechanism underlying anomalous electronic transport is one of the main challenges facing the condensed matter physics community today. 
+Generally speaking, anomalous (or "bad") metals are classified as those whose resistivity exceeds the Mott-Ioffe-Regel (MIR) limit as the temperature increases. 
+This limit arises from a description of electron transport that is based upon scattering and the limiting resistivity is calculated as that achieved when one considers the shortest allowable scattering length. 
+This minimal scattering length is typically considered to be the lattice spacing for any given system.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mir-limit.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    So-called bad metals exceed the MIR limit as a function of temperature, while the resistivity of conventional metals saturate at, or before, this limiting value.
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In the standard Drude model of conductivity, the resistivity is calculated as the inverse of the DC conductivity value, $$\rho = 1/\sigma_{DC}$$.
+When disorder is added to a system, the scattering rate tends to increase which means that the DC conductivity value decreases, thereby increasing the resistivity. 
+This increase typically does not exceed the MIR limit. 
+However, when a system has disorder and strong quantum interferences, then [Anderson localization](https://en.wikipedia.org/wiki/Anderson_localization) can occur in which the electrons are unable to move, or to transport.
+This localization phenomenon causes the DC value to drop to zero, thereby leading to infinite resistivity.
+
+Between the standard picture of Drude conductivity and the extreme case of Anderson localization, there ought to lie another picture of electron transport--one in which the electrons are almost localized. 
+In this picture, the DC value would be smaller than expected in the conventional Drude framework, but still non-zero.
+This reduction in the DC value could provide a plausible mechanism to explain anomalous resistivity patterns observed in various bad metallic systems. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/drude-anderson-almost-localized.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Illustration of the three regimes of electrical conduction: conventional Drude transport (black), Anderson localization (green), and the proposed "almost-localized" transport (blue). 
+</div>
+
+Indeed, the decrease of the DC value of the conductivity could lead to the development of a displaced Drude peak, another signature of anomalous metallic transport. 
+Interestingly, this displaced Drude peak, or DDP, is not observed in all bad metals and has escaped a theoretical understanding thus far. 
+
+In order to examine the effect of long-range interactions on electron transport, we established a project using classical Monte Carlo simulations.
+This technique enables us to study much larger system sizes than in our previous exact diagonalization study. 
+We also updated our long-range interacting model to include on-site interactions, or the $$U$$ term from the Hubbard model.
+
+{% comment %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,3 +107,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+{% endcomment %}
