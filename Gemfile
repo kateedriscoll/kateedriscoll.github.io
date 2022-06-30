@@ -22,4 +22,5 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'kramdown-parser-gfm'
+    gem 'jekyll-mermaid'
 end
