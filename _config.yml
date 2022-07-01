@@ -90,14 +90,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 blog_name: driscoll-blog  # your blog must have a name for it to show up in the nav bar
 blog_description: various projects in condensed matter and bioinformatics 
-=======
-blog_name: al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
->>>>>>> 032f0e62bafa79fe4037adf6a2acfc016dc2db02
 permalink: /blog/:year/:title/
 
 # Pagination
