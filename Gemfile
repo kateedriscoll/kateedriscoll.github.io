@@ -20,15 +20,12 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-<<<<<<< HEAD
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'kramdown-parser-gfm'
     gem 'jekyll-mermaid'
-=======
 end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
->>>>>>> alshedivat-master
 end
