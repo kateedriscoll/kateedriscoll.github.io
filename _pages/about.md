@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Hello worldComputational physicist based in Grenoble, France.
+subtitle: Goodbye worldComputational physicist based in Grenoble, France.
 profile:
   align: right
   image: prof_pic.jpg
