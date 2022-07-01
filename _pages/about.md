@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: hopefully builds gh-pages Computational physicist based in Grenoble, France.
+subtitle: deployment works? gh-pages Computational physicist based in Grenoble, France.
 profile:
   align: right
   image: prof_pic.jpg
