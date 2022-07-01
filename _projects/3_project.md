@@ -44,8 +44,37 @@ Indeed, the decrease of the DC value of the conductivity could lead to the devel
 Interestingly, this displaced Drude peak, or DDP, is not observed in all bad metals and has escaped a theoretical understanding thus far. 
 
 In order to examine the effect of long-range interactions on electron transport, we established a project using classical Monte Carlo simulations.
+The use of a classical technique is justified by the long timescales necessary for collective charge rearrangement, as discovered in our previous project at zero temperature.
 This technique enables us to study much larger system sizes than in our previous exact diagonalization study. 
 We also updated our long-range interacting model to include on-site interactions, or the $$U$$ term from the Hubbard model.
+
+\begin{equation}
+H = -t \sum\_{\langle ij \rangle, \sigma} \big( \hat{c}^{\dagger}\_{i\sigma} \hat{c}\_{j\sigma}^{} + h.c. \big) + \frac{V}{2} \sum\_{ij} \frac{ ( \hat{n}\_{i} - \bar{n} )( \hat{n}\_{j} - \bar{n} ) }{ R\_{ij} } + U \sum\_{i} \hat{n}\_{i,\uparrow} \hat{n}\_{i,\downarrow}
+\end{equation}
+
+The classical Monte Carlo calculations treats the above Hamiltonian to the lowest order in $$t$$, as discussed in works by [Mousatov, Esterlis, and Hartnoll](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.186601). While this level of treatment is already capable of displaying anomalous transport in the form of extremely high resistivity values, it is unable to provide a microscopic explanation for DDPs.
+
+To further explore the effect of long-range interactions, we developed a mixed quantum-classical method that treats the collective charge environment classically while accounting for the quantum fluctuations for inidividual electron motion. The collective charge environments are sampled via Monte Carlo calculations. 
+At each Monte Carlo timestep, we build a one-body Hamiltonian to describe electron motion in the fixed charge environment.
+This method necessarily relies on the fact that individual electron motion occurs on a much more rapid timescale than global rearrangements.
+
+Our mixed quantum-classical method indeed produces DDPs in the optical conductivity spectra when localization corrections are properly treated, as described in [Fratini and Ciuchi](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.013001).  
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ddp-resistivity-cuprates.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    DDPs arise in the optical conductivity spectra at low frequencies when localization corrections have been applied to our mixed quantum-classical method (left). The inset provides a zoomed in perspective of the DDPs. These DDPs result in high values of the resistivity (right). Resistivity values from the semi-classical method (green) and our mixed quantum-classical scheme (light blue) are compared to typical values (dark blue) from the cuprate family of superconductors, a well-known strongly correlated and bad metallic system. The MIR limit is plotted in black.
+</div>
+
+These calculations from our mixed quantum-classical method establish as a proof-of-principle that the disorder arising from long-range interactions can lead to DDPs and anomalous values of resistivity.
+Of course, these calculations cannot fully explain all of the scattering behavior in specific materials, such as the cuprates.
+Nonetheless, these calculations serve as an important first step towards providing a plausible microscopic explanation of anomalous electron transport.
+
+The natural next step is to properly treat the quantum effects by means of the finite temperature Lanczos method, a technique that is currently under development.
+While this method serves as a natural extension of our exact diagonalization work at zero temperature, it will limit the accessible sizes and careful benchmarking must be performed in order to rule out any finite-size effects.
 
 {% comment %}
 
