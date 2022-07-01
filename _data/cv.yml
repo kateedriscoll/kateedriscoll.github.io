@@ -2,96 +2,93 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Katherine I. Driscoll 
     - name: Languages
-      value: English, German
+      value: English, French, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Theoretical Physics
+      subtitle: Long-range Coulomb interactions and charge frustration in strongly correlated quantum matter
+      institution: Université Grenoble Alpes, Grenoble, France 
+      year: 2022 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Supervisors: Dr. Simone Fratini and Dr. Arnaud Ralko" 
+        - Condensed Matter Theory Group, Néel Institute CNRS 
+    - title: M.Sc. in Physics 
+      subtitle: Atomic scale modeling of physical, chemical, and biomolecular systems
+      institution: "Erasmus Mundus Joint Masters degree awarded by:"
+      year: 2018 
       description:
-        - Description 1.
-        - Description 2.
+        - École Normale Supérieure de Lyon, Lyon, France 
+        - La Sapienza Università di Roma, Rome, Italy
+        - Universiteit van Amsterdam, Amsterdam, Netherlands
+        - Vrije Universiteit van Amsterdam, Amsterdam, Netherlands 
+    - title: B.Sc. in Physics, B.Sc. in Mathematics 
+      subtitle: Cum laude
+      institution: "University of South Carolina, Columbia, SC, United States"
+      year: 2016 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant 
+      institution: Néel Institute CNRS, Grenoble, France 
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Implemented exact diagonalization code with Ewald summation and twisted boundary conditions to characterize the phase diagram of long-range interacting systems, published in Phys. Rev. B.        
+        - Developed classical Monte Carlo codes to demonstrate that long-range interactions constitute a microscopic mechanism explaining anomalous electron transport 
+        - Supervised 2 internship students extending diagonalization codes to spinful and finite temperature systems
+    - title: Master Student Research Intern 
+      institution: Vrije Universiteit van Amsterdam, Amsterdam, Netherlands 
+      year: 2018 
       description:
-        - Description 1.
-        - Description 2.
+        - "Utilized linear programming techniques in Mathematica to study the effects of interaction range, screening and convexity of cost functions on a 3 particle system" 
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Undergraduate Research Assistant 
+      institution: University of South Carolina, Columbia, SC, United States 
+      year: 2014-2016
+      description: "Analyzed data from mean feld theory calculations for biophysical applications" 
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Undergraduate Summer Research Intern 
+      institution: RWTH Aachen University, Aachen, Germany 
+      year: 2015 
+      description: "Implemented molecular dynamics simulations to examine the effect of membrane curvature on huntingtin binding"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Summer Research Intern 
+      institution: University of Pittsburgh, Pittsburgh, PA, United States 
+      year: 2014 
+      description: "Examined the role of the β-hairpin 3 from Rad-4 in DNA damage recognition through fluorescence anisotropy and atomic force microscopy, leading to a publication in Molecular Cell"
+
+    - title: Undergraduate Summer Research Intern 
+      institution: Medical University of South Carolina, Charleston, SC, United States 
+      year: 2013 
+      description: "Cultured and 3D-printed tri-culture tissue spheroids"
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/kateedriscoll">Github</a>
+      year: soon 
+      description: Tutorials for exact diagonalization and classical Monte Carlo.
+    - title: <a href="https://www.kaggle.com/kdriscoll">HuBMAP + HPA - Hacking the Human Body competition on Kaggle</a>
+      year: soon 
+      description: Segment multi-organ functional tissue units.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Analysis of single-cell omics datasets 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Understanding how to reliably integrate out batch effects (but not biological effects) from different samples of high-throughput sequencing data to construct cell atlases. 
+        - Extracting information about fundamental processes (cell cycle, development) from single-cell atlases. 
+    - title: Algorithms of any kind! 
       items:
-        - Description 1.
-        - Description 2.
+        - Currently focused on deep learning techniques and graph-based techniques used in constructing sequencing libraries. 
+        - Past areas of interest include tensor networks, diagonalization, Monte Carlo, density functional theory, and molecular dynamics.  
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Climbing (mostly bouldering) 🧗, hiking 🥾, skiing ⛷️, cooking vegetarian recipes 🍆, learning new languages 📚 
