@@ -3,9 +3,22 @@
   contents:
     - name: Full Name
       value: Katherine I. Driscoll 
+    - name: Programming
+      value: Python, C++, Bash, Julia, R, Wolfram, Fortran, SQL 
     - name: Languages
       value: English, French, Spanish
 
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Computational Biologist 
+      institution: DeepLife, Grenoble (remote), France 
+      year: 2022 - Present
+      description:
+        - Benchmark of internal methods and open-source single-cell foundation models used in target identification.        
+        - Development of an API to easily serve single-cell foundation models. 
+        - Atlas construction and evaluation from single-cell RNA sequencing data. 
+        - Pilot project to identify biomarkers from various transcriptomic data sources. 
 - title: Education
   type: time_table
   contents:
@@ -30,9 +43,17 @@
       institution: "University of South Carolina, Columbia, SC, United States"
       year: 2016 
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
+    - title: Computational Biologist 
+      institution: DeepLife, Grenoble (remote), France 
+      year: 2022 - Present
+      description:
+        - Benchmark of internal methods and open-source single-cell foundation models used in target identification.        
+        - Development of an API to easily serve single-cell foundation models. 
+        - Atlas construction and evaluation from single-cell RNA sequencing data. 
+        - Pilot project to identify biomarkers from various transcriptomic data sources. 
     - title: Graduate Research Assistant 
       institution: Néel Institute CNRS, Grenoble, France 
       year: 2018 - 2022
@@ -66,29 +87,28 @@
       year: 2013 
       description: "Cultured and 3D-printed tri-culture tissue spheroids"
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/kateedriscoll">Github</a>
-      year: soon 
-      description: Tutorials for exact diagonalization and classical Monte Carlo.
-    - title: <a href="https://www.kaggle.com/kdriscoll">HuBMAP + HPA - Hacking the Human Body competition on Kaggle</a>
-      year: soon 
-      description: Segment multi-organ functional tissue units.
-
-- title: Academic Interests
+- title: Algorithmic Interests
   type: nested_list
   contents:
-    - title: Analysis of single-cell omics datasets 
+    - title: Machine learning and data science 
       items: 
-        - Understanding how to reliably integrate out batch effects (but not biological effects) from different samples of high-throughput sequencing data to construct cell atlases. 
-        - Extracting information about fundamental processes (cell cycle, development) from single-cell atlases. 
-    - title: Algorithms of any kind! 
-      items:
-        - Currently focused on deep learning techniques and graph-based techniques used in constructing sequencing libraries. 
-        - Past areas of interest include tensor networks, diagonalization, Monte Carlo, density functional theory, and molecular dynamics.  
+        - Graph transformers 
+        - Diffusion models
+        - Variational autoencoders
+        - Large language models 
+        - High dimensional searches (hierarchical navigable small world approach)   
+        - Dimensionality reduction techniques (UMAP, tSNE)
+        - Topological data analysis and topological deep learning
+    - title: Quantum mechanics and computational physics 
+      items: 
+        - Symmetrization of exact diagonalization routines 
+        - Tensor network methods (density matrix renormalization group)
+        - Quantum Monte Carlo 
+        - Classical Monte Carlo
+        - Electronic structure methods (density functional theory, GW approximation)
+        - Molecular dynamics
 
 - title: Other Interests
   type: list
   contents:
-    - Climbing (mostly bouldering) 🧗, hiking 🥾, skiing ⛷️, cooking vegetarian recipes 🍆, learning new languages 📚 
+    - Climbing 🧗, hiking 🥾, skiing ⛷️, cooking vegetarian recipes 🍆, learning new languages 📚 
