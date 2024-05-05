@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: Driscoll_CV_2022.pdf
+cv_pdf: Driscoll_CV_2024.pdf
 ---
